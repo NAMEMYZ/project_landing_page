@@ -1,0 +1,79 @@
+.row{
+    margin-top: 90px;
+}
+h1 {
+    font-family: 'Mitr', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: medium;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+.picbeer{
+    margin-right: 50px;
+}
+body {
+    background-color: #DBDBDB;
+}
+.header {
+    padding: 20px;
+    background-color: #ffcd00;
+}
+.nav-link:hover {
+    color: #CF7500;
+}
+/* สไตล์สำหรับคลาส color-change */
+.color-change.active {
+    background-color: #ffcd00 !important; /* เปลี่ยนสีเมื่อ hover */
+  }
+  
+  /* สไตล์สำหรับคลาส loaded */
+  .loaded {
+    animation: fadeIn 1.5s ease-in-out; /* เพิ่มการสั่นเพื่อเปลี่ยนสีเมื่อเว็บโหลดเสร็จ */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* สไตล์สำหรับคลาส brand-color-change */
+.brand-color-change.active {
+    color: #CF7500 !important; /* เปลี่ยนสีเมื่อ hover */
+    transition: color 0.3s;
+  }
+  
+  /* จัดให้รูปภาพอยู่ตรงกลาง */
+  #picbeer {
+    display: block;
+    margin: 0 auto;
+  }
+ /* สไตล์สำหรับคลาส center-brand */
+.center-brand {
+    text-align: center;
+}
+
+/* สไตล์สำหรับ Navbar Item และเปลี่ยนสีเมื่อ hover */
+.navbar-nav .nav-item .nav-link {
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #CF7500;
+}
+/* CSS เพื่อทำให้รูปภาพย่อหรือขยายตามขนาดแพลตฟอร์ม */
+img {
+    max-width: 100%; /* รูปภาพจะไม่เกินความกว้างของพิกเซลตัวแพลตฟอร์ม */
+    height: auto; /* รักษารูปสัดส่วนเมื่อย่อหรือขยาย */
+    transform: rotate(25deg);
+  }
+.btn{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+  
