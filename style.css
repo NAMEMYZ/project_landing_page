@@ -71,6 +71,7 @@ body {
     max-width: 100%; /* รูปภาพจะไม่เกินความกว้างของพิกเซลตัวแพลตฟอร์ม */
     height: auto; /* รักษารูปสัดส่วนเมื่อย่อหรือขยาย */
     transform: rotate(25deg);
+    padding-top: 100px;
   }
 .btn{
   margin-left: 10px;
@@ -147,4 +148,7 @@ h4{
 }
 .Product{
   padding-top: 70px;
+}
+.Home{
+  padding-top: 100px;
 }
