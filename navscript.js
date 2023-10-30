@@ -34,4 +34,4 @@ document.addEventListener("DOMContentLoaded", function () {
 	  brand.classList.remove("active");
 	});
   });
-	
+

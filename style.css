@@ -1,5 +1,5 @@
 .row{
-    margin-top: 90px;
+    margin-top: 20px;
 }
 h1 {
     font-family: 'Mitr', sans-serif;
@@ -67,7 +67,7 @@ body {
     color: #CF7500;
 }
 /* CSS เพื่อทำให้รูปภาพย่อหรือขยายตามขนาดแพลตฟอร์ม */
-img {
+.picbeer {
     max-width: 100%; /* รูปภาพจะไม่เกินความกว้างของพิกเซลตัวแพลตฟอร์ม */
     height: auto; /* รักษารูปสัดส่วนเมื่อย่อหรือขยาย */
     transform: rotate(25deg);
@@ -76,4 +76,75 @@ img {
   margin-left: 10px;
   margin-right: 10px;
 }
-  
+.img-product {
+  width: 100%; /* คำนึงถึงการปรับขนาดของรูป */
+  max-width: 100%; /* คำนึงถึงการปรับขนาดของรูป */
+  height: auto; /* คำนึงถึงการปรับขนาดของรูป */
+  border-radius: 15px; /* เพิ่มมุมโค้งๆ */
+}
+.img-ft {
+  transition: transform 0.3s, filter 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.img-ft:hover {
+  filter: brightness(0.8); /* เปลี่ยนสีของรูปภาพเมื่อ hover */
+  transform: scale(0.9); /* ย่อขนาดของรูปภาพเล็กลง 90% */
+}
+.img-product {
+  transition: transform 0.3s, filter 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.img-product:hover {
+  filter: brightness(0.8); /* เปลี่ยนสีของรูปภาพเมื่อ hover */
+  transform: scale(0.9); /* ย่อขนาดของรูปภาพเล็กลง 90% */
+}
+.img-ft2 {
+  width: 54%;
+  transition: transform 0.3s, filter 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.img-ft2:hover {
+  filter: brightness(0.8); /* เปลี่ยนสีของรูปภาพเมื่อ hover */
+  transform: scale(0.9); /* ย่อขนาดของรูปภาพเล็กลง 90% */
+}
+.img-ft3 {
+  width: 68%;
+  transition: transform 0.3s, filter 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.img-ft3:hover {
+  filter: brightness(0.8); /* เปลี่ยนสีของรูปภาพเมื่อ hover */
+  transform: scale(0.9); /* ย่อขนาดของรูปภาพเล็กลง 90% */
+}
+h4{
+  margin-top: 5px;
+}
+.button .bt {
+  text-align: center;
+  background-color: #ffcd00;
+  color: #000000;
+  border: none;
+  border-radius: 20px; /* ปรับมุมให้มีมุมโค้ง */
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.button .bt:hover {
+  background-color: #CF7500; /* เปลี่ยนสีเมื่อ hover */
+}
+.ad{
+  width: 60%;
+}
+.head{
+  width: 53%;
+}
+.mid{
+  margin-top: 0px;
+}
+.Features{
+  padding-top: 70px;
+}
+.Product{
+  padding-top: 70px;
+}
